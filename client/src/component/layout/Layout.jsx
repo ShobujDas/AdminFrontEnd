@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function Layout({children}) {
    const [style,setStyle] = useState("sb-nav-fixed");
-   const [ok,setOk] = useState(true)
+   const [ok,setOk] = useState(false)
 
 
    const changeStyle = ()=>{
